@@ -4,8 +4,8 @@ body {
 }
 #pic{
     align-items: center;
-    margin-left: 35px;
-    margin-right: 35px;
+    justify-content: center;
+    margin-left: 500px;
     height:190px;
 }
 
@@ -18,6 +18,8 @@ body {
     margin-bottom:100px;
     margin-top: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 140px;
+    margin-left: 120px;
 }
 h3{
     margin-bottom:0px;
@@ -36,6 +38,7 @@ h3{
     background-color: black;
     width: 180px;
     height: 145px;
+
 }
 
 .points {
@@ -50,9 +53,11 @@ h3{
 
 button{
     font-family: 'DS-Digital', sans-serif;
+    font-size: 38px;
 }
 .result{
     color: white;
     text-align: center;
     margin-top: -50px;
+    font-size: 30px;
 }

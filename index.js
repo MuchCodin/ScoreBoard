@@ -71,10 +71,10 @@ let leadTeam = document.getElementById("leading");
 // logic to return the leading team
 function updateLeadingTeam(){
     if (homePoints > guestPoints){
-        leadTeam.textContent = `Golden Bulls are winning by ${homePoints - guestPoints}`
+        leadTeam.textContent = `Golden Bulls are winning by ${homePoints - guestPoints} points.`
         return leadTeam.textContent;
     }else if(homePoints < guestPoints){
-        leadTeam.textContent = `Visitors are leading by ${guestPoints - homePoints}`
+        leadTeam.textContent = `Visitors are leading by ${guestPoints - homePoints} points.`
         return leadTeam.textContent
     }
     else{
